@@ -1,0 +1,30 @@
+.caja {
+  box-sizing: border-box;
+  height: 230px;
+  width: 300px;
+  padding: 30px;
+  border: 5px solid #028090;
+}
+
+.formulario {
+  box-sizing: border-box;
+  height: 280px;
+  width: 500x;
+  padding: 30px;
+  border: 5px solid #028090;
+}
+
+.nav__lista {
+display: flex;
+justify-content: flex-start;
+gap: 24px;
+list-style: none;
+}
+
+.ejemplo {
+  box-sizing: border-box;
+  height: 230px;
+  width: 300px;
+  padding: 30px;
+  border: 5px solid #02901a;
+}
