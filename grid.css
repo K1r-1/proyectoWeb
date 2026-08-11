@@ -11,5 +11,26 @@
 
 .header { grid-area: header; }
 .nav { grid-area: nav; }
-.main { grid-area: main; }
+
+.main { 
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr; }
+    
 .footer { grid-area: footer; }
+
+/* Tablet en adelante */ 
+@media (min-width: 768px) {
+    .layout {
+        grid-template-areas:
+            "header header"
+            "nav main"
+            "footer footer";
+    }
+    .main { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Escritorio en adelante */
+@media (min-width: 1024px) {
+    .main { grid-template-columns: repeat(3, 1fr); }
+}
