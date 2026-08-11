@@ -1,7 +1,7 @@
 .caja {
   box-sizing: border-box;
-  height: 230px;
-  width: 300px;
+  min-height: 230px;
+  width: 100%;
   padding: 30px;
   border: 5px solid #028090;
 }

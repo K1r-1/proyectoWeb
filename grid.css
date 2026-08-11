@@ -11,26 +11,28 @@
 
 .header { grid-area: header; }
 .nav { grid-area: nav; }
-
 .main { 
     grid-area: main;
     display: grid;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr; 
+    gap:1.5rem;
+}
     
 .footer { grid-area: footer; }
 
-/* Tablet en adelante */ 
-@media (min-width: 768px) {
+/* A partir de 640px Funciones y la tabla de ranking pueden ir lado a lado sin conflictos */ 
+@media (min-width: 640px) {
     .layout {
         grid-template-areas:
             "header header"
-            "nav main"
+            "nav nav" 
+            "main main"
             "footer footer";
     }
     .main { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* Escritorio en adelante */
-@media (min-width: 1024px) {
-    .main { grid-template-columns: repeat(3, 1fr); }
+/* A partir de 1000px el contenido empieza a ocupar espacio innecesario */
+@media (min-width: 1000px) {
+    /* TO-DO: Limitar espacio */ 
 }
