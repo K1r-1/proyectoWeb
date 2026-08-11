@@ -1,15 +1,19 @@
+/* TO-DO: Solucionar problemas de separación */
+
 .caja {
   box-sizing: border-box;
   min-height: 230px;
+  max-width: 300px;
   width: 100%;
   padding: 30px;
-  border: 5px solid #028090;
+  border: 5px solid #439ba7;
 }
 
 .formulario {
   box-sizing: border-box;
-  height: 280px;
-  width: 500x;
+  min-height: 280px;
+  max-width: 500px;
+  width: 100%;
   padding: 30px;
   border: 5px solid #028090;
 }
@@ -17,14 +21,15 @@
 .nav__lista {
 display: flex;
 justify-content: flex-start;
-gap: 24px;
+gap: px;
 list-style: none;
 }
 
 .ejemplo {
   box-sizing: border-box;
-  height: 230px;
-  width: 300px;
+  min-height: 230px;
+  max-width: 330px;
+  width: 100%;
   padding: 30px;
   border: 5px solid #02901a;
 }
