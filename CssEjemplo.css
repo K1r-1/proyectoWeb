@@ -1,5 +1,4 @@
 /* TO-DO: Solucionar problemas de separación */
-
 .caja {
   box-sizing: border-box;
   min-height: 230px;
@@ -19,10 +18,10 @@
 }
 
 .nav__lista {
-display: flex;
-justify-content: flex-start;
-gap: px;
-list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  list-style: none; 
 }
 
 .ejemplo {
@@ -32,4 +31,9 @@ list-style: none;
   width: 100%;
   padding: 30px;
   border: 5px solid #02901a;
+}
+
+.modo-oscuro {
+  background-color: black;
+  color:white;
 }

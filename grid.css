@@ -29,7 +29,11 @@
             "main main"
             "footer footer";
     }
-    .main { grid-template-columns: repeat(2, 1fr); }
+    .main { 
+        grid-template-columns: repeat(2, 1fr); 
+        justify-content: center;
+        gap: 1.5rem;
+    }
 }
 
 /* A partir de 1000px el contenido empieza a ocupar espacio innecesario */
