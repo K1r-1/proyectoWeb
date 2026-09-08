@@ -1,4 +1,5 @@
 import TarjetaServicio from "./TarjetaServicio";
+
 const servicios = [
     {id: 1, icono: "⚙", titulo: "Inicio", descripcion: "Página principal del sitio"},
     {id: 2, icono: "⭐", titulo: "Ranking", descripcion: "Ranking Semanal por Rating"},
