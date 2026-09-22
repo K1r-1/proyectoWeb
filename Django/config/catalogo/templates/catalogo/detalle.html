@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Detalle Producto{% endblock %}
+
+{% block contenido %}
+
+  {%  %}
+    <li>
+     — {{ p.nombre }} 
+     — {{ p.categoria.nombre }} 
+     — {{ p.precio }}
+     
+     {% if p.stock == 0 %}<em>(sin stock)</em>{% endif %}
+    </li>
+    {% empty %}
+        <li>No hay producto cargado</li>    
+    {% endfor %}
+ </ul>
+{% endblock %}
